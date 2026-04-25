@@ -186,9 +186,9 @@ Default - disabled
 )");
   bool hookIntoChildren;
 
-  DOCUMENT(R"(Sometimes attempting to hook child processes can cause some unpredictable 
+  DOCUMENT(R"(Sometimes attempting to hook child processes can cause some unpredictable
 obstacles for the child processes, even if those child processes are not the target of
-the hook. Adding a blacklist to manage these completely ignorable child processes 
+the hook. Adding a blacklist to manage these completely ignorable child processes
 can help the program start correctly.
 
 Default - disabled
